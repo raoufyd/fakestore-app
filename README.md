@@ -16,14 +16,14 @@ A modern e-commerce application built with Next.js, featuring authentication, pr
 - Example usage:
 
 Admin user with fakestore-api :
-< br / >
+
 const role: UserRole = userInfo.id === 1 ? "admin" : "client";
-< br / >
+
 Login with username and password :
 const user = await loginUser(username, password)
-< br / >
+
 =>
-< br / >
+
 const response = await fetch(`${API_URL}/auth/login`, {
 method: "POST",
 headers: {
