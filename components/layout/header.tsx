@@ -171,9 +171,9 @@ export default function Header() {
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="/orders" className="cursor-pointer">
+                    <Link href="/cart" className="cursor-pointer">
                       <ShoppingCart className="mr-2 h-4 w-4" />
-                      <span>Orders</span>
+                      <span>Cart</span>
                     </Link>
                   </DropdownMenuItem>
                   {isAdmin && (

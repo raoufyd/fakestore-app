@@ -1,5 +1,4 @@
 import type { Product, ProductCreate } from "@/types/product";
-import { v4 as uuidv4 } from "uuid";
 
 const API_URL = "https://fakestoreapi.com";
 
