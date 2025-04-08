@@ -4,6 +4,18 @@ A modern e-commerce application built with Next.js, featuring authentication, pr
 
 ## Features
 
+### Home Page
+
+- Hero section with featured content
+- Category showcase
+- Featured products section
+- Sale banners
+- Benefits section
+- Newsletter subscription form
+- Partner logos display
+
+![Alt text](public/HOME.png)
+
 ### Authentication System
 
 - User login with role-based access control (Admin/Client)
@@ -35,6 +47,17 @@ password,
 }),
 signal: AbortSignal.timeout(5000),
 });
+
+### Admin Dashboard
+
+- Product management interface
+- Newsletter subscriber management
+- User management
+- Analytics and statistics
+- Protected admin routes
+- Role-based access control
+
+![Alt text](public/admin-dashboard.png)
 
 ### Product Management
 
@@ -102,29 +125,6 @@ const storedSubscribers = localStorage.getItem("newsletter_subscribers");
 if (!storedSubscribers) {
 return [];
 }
-
-### Home Page
-
-- Hero section with featured content
-- Category showcase
-- Featured products section
-- Sale banners
-- Benefits section
-- Newsletter subscription form
-- Partner logos display
-
-![Alt text](public/HOME.png)
-
-### Admin Dashboard
-
-- Product management interface
-- Newsletter subscriber management
-- User management
-- Analytics and statistics
-- Protected admin routes
-- Role-based access control
-
-![Alt text](public/admin-dashboard.png)
 
 ## Technologies Used
 
