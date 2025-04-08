@@ -1,5 +1,7 @@
 # FakeStore E-Commerce Application
 
+Link : https://fakestore-app-kappa.vercel.app/
+
 A modern e-commerce application built with Next.js, featuring authentication, product management, newsletter subscription, and an admin dashboard.
 
 ## Features
