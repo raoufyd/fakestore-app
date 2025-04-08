@@ -37,7 +37,7 @@ const role: UserRole = userInfo.id === 1 ? "admin" : "client";
 Login with username and password :
 const user = await loginUser(username, password)
 
-=>
+
 
 const response = await fetch(`${API_URL}/auth/login`, {
 method: "POST",
@@ -122,7 +122,7 @@ await unsubscribeFromNewsletter(email);
 
 // Get subscriber statistics
 const stats = getSubscriberStats()
-=>
+
 export function getSubscribers(): NewsletterSubscriber[] {
 if (typeof window === "undefined") {
 return [];
