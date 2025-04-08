@@ -31,6 +31,7 @@ A modern e-commerce application built with Next.js, featuring authentication, pr
 
 Admin user with fakestore-api :
 
+```ts
 const role: UserRole = userInfo.id === 1 ? "admin" : "client";
 
 Login with username and password :
@@ -49,6 +50,7 @@ password,
 }),
 signal: AbortSignal.timeout(5000),
 });
+```
 
 ### Admin Dashboard
 
@@ -83,6 +85,7 @@ Client Product details view :
 
 Example API calls:
 
+```ts
 // Get all products
 const products = await getProducts();
 
@@ -94,6 +97,7 @@ const newProduct = await createProduct(productData, authToken);
 
 // Update product (admin only)
 const updatedProduct = await updateProduct(productId, productData, authToken);
+```
 
 ### Newsletter System
 
@@ -109,6 +113,7 @@ const updatedProduct = await updateProduct(productId, productData, authToken);
 
 Example usage:
 
+```
 // Subscribe to newsletter
 const subscriber = await subscribeToNewsletter(email);
 
@@ -127,6 +132,7 @@ const storedSubscribers = localStorage.getItem("newsletter_subscribers");
 if (!storedSubscribers) {
 return [];
 }
+```
 
 ## Technologies Used
 
